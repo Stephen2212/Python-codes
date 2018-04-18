@@ -1,0 +1,28 @@
+"""
+this is a program that will play a soundclip when you answer a question
+"""
+
+
+
+from time import sleep
+import winsound
+
+print("Try and solve this equation....")
+sleep(2)
+print("If your small human mind can handle it")
+sleep(2)
+equation=input("Solve this: (143(5)+67)5")
+print("Your answer " + (equation) + " is wrong")
+sleep(2)
+print("Stupid human")
+sleep(1)
+winsound.PlaySound("seinfeldcds", winsound.SND_FILENAME)
+
+"""
+the code will look something like this:
+Try and solve this equation....
+If your small human mind can handle it
+Solve this: (143(5)+67)5 6
+Your answer 6 is wrong
+Stupid human
+"""
