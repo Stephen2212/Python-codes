@@ -1,0 +1,22 @@
+from time import sleep 
+
+name=input("Type a name")
+place=input("Type a place")
+adjective=input("Type an adjective")
+verb=input("Type a verb")
+random=input("Type a random word")
+
+
+print("There was a strange person named " + (name) + " who lived in " + (place) + ".")
+sleep(2)
+print("Everyone thought " + (name) + " was " + (adjective) + " because they were always " + (verb) + ".")
+sleep(2)
+print("And they thought they were a bit of a/an " + (random) + ". ")
+
+"""
+The code will look something like this:
+
+There was a strange person named gary who lived in ireland.
+Everyone thought gary was amazing because they were always writing code.
+And they thought they were a bit of a/an intellctual.
+"""
